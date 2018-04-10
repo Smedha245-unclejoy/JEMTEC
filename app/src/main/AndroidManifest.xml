@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="shiv.com.jemtec">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="shiv.com.jemtec.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/jemtec"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".frontpage"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Contact"
+            android:label="@string/title_activity_contact"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".WelcomeLogo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisplayList"
+            android:label="Notices" />
+        <activity android:name=".aboutjemtec"
+            android:label="About JEMTEC"/>
+        <activity android:name=".course"
+            android:label="Courses"/>
+        <activity android:name=".NewActivity0"
+            android:label="IPUCET"> </activity>
+        <activity android:name=".NewActivity1"
+            android:label="Reserved Seats"> </activity>
+        <activity android:name=".NewActivity2"
+            android:label="IPU Counselling"> </activity>
+        <activity android:name=".NewActivity3"
+            android:label="Documents Required"> </activity>
+        <activity android:name=".NewActivity4"
+            android:label="Management Quota"> </activity>
+        <activity android:name=".NewActivity5"
+            android:label="CET for B.Tech"> </activity>
+        <activity android:name=".NewActivity6"
+            android:label="CET for B.A/B.B.A LLB"> </activity>
+        <activity android:name=".NewActivity7"
+            android:label="CET for BCA"> </activity>
+        <activity android:name=".NewActivity8"
+            android:label="CET for B.Ed"> </activity>
+
+        <activity android:name=".NewActivity9"
+            android:label="Cutoff"> </activity>
+        <activity android:name=".NewActivity10"
+            android:label="Cutoff1"> </activity>
+        <activity android:name=".NewActivity11"
+            android:label="Cutoff2"> </activity>
+        <activity android:name=".NewActivity12"
+            android:label="Cutoff3"> </activity>
+        <activity android:name=".NewActivity13"
+            android:label="Cutoff4"> </activity>
+        <activity android:name=".cutoff0"
+            android:label="Cutoff5"> </activity>
+        <activity android:name=".cutoff1"
+            android:label="Cutoff6"> </activity>
+        <activity android:name=".cutoff2"
+            android:label="Cutoff7"> </activity>
+        <activity android:name=".cutoff3"
+            android:label="Cutoff8"> </activity>
+        <activity android:name=".cse_card"
+            android:label="CSE FACULTY"/>
+        <activity android:name=".ece_card"
+            android:label="ECE FACULTY"/>
+        <activity android:name=".ee_card"
+            android:label="ee faculty"/>
+        <activity android:name=".civil_card"
+            android:label="civil faculty"/>
+        <activity android:name=".mech_card"
+            android:label="mech faculty"/>
+        <activity android:name=".ballb_card"
+            android:label="ballb faculty"/>
+        <activity android:name=".bballb_card"
+            android:label="bballb faculty"/>
+        <activity android:name=".bca_card"
+            android:label="bca faculty"/>
+        <activity android:name=".bed_card"
+            android:label="bca faculty"/>
+        <activity android:name=".sci_hu_card"
+            android:label="science and humanities"/>
+        <activity android:name=".Admissions"
+            android:label="Admissions"/>
+        <activity android:name=".Faculty"
+            android:label="Faculty"/>
+        <activity android:name=".WelcomeFreshers"
+            android:label="Welcome Freshers"/>
+        <activity android:name=".zest"
+            android:label="Zest_n_Dandiya"/>
+        <activity android:name=".Ballb"
+            android:label="ballb"/>
+        <activity android:name=".blood_bnk"
+            android:label="blood"/>
+        <activity android:name=".celebrations"
+            android:label="celebrations"/>
+        <activity android:name=".certi"
+            android:label="certificate"/>
+        <activity android:name=".nss"
+            android:label="nss"/>
+        <activity android:name=".ViewFullImage"
+            android:label="FullScreen"/>
+        <activity android:name=".View_ballb_full"
+            android:label="ballb_full"/>
+        <activity android:name=".view_blood"
+            android:label="bal"/>
+        <activity android:name=".view_celeb"
+            android:label="celeb"/>
+        <activity android:name=".view_certi"
+            android:label="celeb"/>
+        <activity android:name=".view_nss"
+            android:label="celeb"/>
+        <activity android:name=".view_zest"
+            android:label="celeb"/>
+        <activity android:name=".Gallery"
+            android:label="gallery"/>
+        <activity android:name=".CampusFacilities"
+            android:label="campus_facilities"/>
+        <activity android:name=".ballb2"
+            android:label="bllb"/>
+        <activity android:name=".ballb1"
+            android:label="llb_syllabus"/>
+        <activity android:name=".ballb3"
+            android:label="ballb_rec_bks"/>
+        <activity android:name=".bballb1"
+            android:label="bballb_syllabus"/>
+        <activity android:name=".bballb2"
+            android:label="bballb_bkbnk"/>
+        <activity android:name=".bballb3"
+            android:label="bballb_rec_bks"/>
+        <activity android:name=".bca1"
+            android:label="bca_syllabus"/>
+        <activity android:name=".bca2"
+            android:label="bca_recbks"/>
+        <activity android:name=".bca3"
+            android:label="bca"/>
+        <activity android:name=".bca_adm"
+            android:label="bca"/>
+        <activity android:name=".bca_adm2"
+            android:label="admission criteria"/>
+        <activity android:name=".bed1"
+            android:label="bed_syllabus"/>
+        <activity android:name=".bed2"
+            android:label="bed_books"/>
+        <activity android:name=".civil1"
+            android:label="civil_syllabus"/>
+        <activity android:name=".civil2"
+            android:label="civil_bkbnk"/>
+        <activity android:name=".civil3"
+            android:label="civil_rec_bks"/>
+        <activity android:name=".civil4"
+            android:label="civil_questions"/>
+        <activity android:name=".Cafeteria"
+            android:label="cafeteria"/>
+        <activity android:name=".cse1"
+            android:label="cse_syllabus"/>
+        <activity android:name=".cse2"
+            android:label="cse_bkbnk"/>
+        <activity android:name=".cse3"
+            android:label="cse_recbooks"/>
+        <activity android:name=".cse4"
+            android:label="cse_questions"/>
+        <activity android:name=".ece1"
+            android:label="ece_syllabus"/>
+        <activity android:name=".ece2"
+            android:label="ece_bkbnk"/>
+        <activity android:name=".ece3"
+            android:label="ece_recbooks"/>
+        <activity android:name=".ece4"
+            android:label="ece_questions"/>
+        <activity android:name=".ee1"
+            android:label="cse_bkbnk"/>
+        <activity android:name=".ee2"
+            android:label="cse_syllabus"/>
+        <activity android:name=".ee3"
+            android:label="cse_syllabus"/>
+        <activity android:name=".ee4"
+            android:label="cse_syllabus"/>
+        <activity android:name=".me1"
+            android:label="cse_syllabus"/>
+        <activity android:name=".me2"
+            android:label="cse_bkbnk"/>
+        <activity android:name=".me3"
+            android:label="cse_syllabus"/>
+        <activity android:name=".me4"
+            android:label="me_questions"/>
+.       <activity android:name=".Hostel"
+           android:label="hostel_boys"/>
+        <activity android:name=".Hostel2"
+            android:label="hostel_2"/>
+        <activity android:name=".Stationary"
+            android:label="stationary"/>
+        <activity android:name=".Transportation"
+            android:label="transportation"/>
+        <activity android:name=".Students"
+            android:label="Students"/>
+
+        <activity android:name=".library"
+            android:label="library"/>
+
+          <activity android:name=".EngineeringLab"
+              android:label="engineering lab"/>
+
+
+    </application>
+
+</manifest>

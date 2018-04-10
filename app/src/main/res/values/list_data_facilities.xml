@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="camp_list">
+        <item>Library</item>
+        <item>Cafeteria</item>
+        <item>Hostel</item>
+        <item>Transportation</item>
+        <item>Engineering Lab</item>
+        <item>Stationary Shop</item>
+    </string-array>
+</resources>

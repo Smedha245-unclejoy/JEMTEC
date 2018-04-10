@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false"
+    android:background="#c23d9033">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:weightSum="100"
+        android:background="#c273b76b">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/imageView3"
+            android:src="@drawable/mission"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:paddingTop="@dimen/abc_action_bar_content_inset_material"
+            android:padding="@dimen/abc_action_bar_content_inset_material"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp" />
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Base.V7.Widget.AppCompat.AutoCompleteTextView"
+            android:textStyle="bold|normal"
+            android:text="@string/misn"
+            android:id="@+id/webView3"
+            android:gravity="left|right"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:id="@+id/imagebutton3"
+            android:src="@drawable/vol4"
+            android:layout_gravity="right"
+            android:background="#7f78b379"/>
+    </LinearLayout>
+
+</ScrollView>

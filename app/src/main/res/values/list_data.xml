@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="adm_list">
+        <item>IPUCET</item>
+        <item>Reserved Seats</item>
+        <item>IPU Counselling</item>
+        <item>Documents Required</item>
+        <item>Management Quota</item>
+        <item>Cutoff</item>
+        <item>Application Form</item>
+    </string-array>
+</resources>

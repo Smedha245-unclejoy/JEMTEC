@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/aj_id"
+            android:title="About JEMTEC"
+            android:icon="@drawable/smic1">
+        </item>
+        <item android:id="@+id/course_id"
+            android:title="Courses"
+            android:icon="@drawable/smic2">
+        </item>
+        <item android:id="@+id/adm_id"
+            android:title="Admissions"
+            android:icon="@drawable/smic3">
+        </item>
+        <item android:title="Student"
+            android:id="@+id/stud_id"
+            android:icon="@drawable/smic4">
+        </item>
+        <item android:title="Faculty"
+            android:id="@+id/id_teach"
+            android:icon="@drawable/smic5">
+        </item>
+        <item android:title="Notice"
+            android:id="@+id/id_not"
+            android:icon="@drawable/smic6">
+        </item>
+        <item android:title="Gallery"
+            android:id="@+id/id_gallery"
+            android:icon="@drawable/smic7">
+        </item>
+        <item android:title="Campus"
+            android:id="@+id/id_campus"
+            android:icon="@drawable/smic8">
+        </item>
+        <item android:title="Map"
+            android:id="@+id/id_map"
+            android:icon="@drawable/smic9">
+        </item>
+        <item android:title="Contact Us"
+            android:id="@+id/id_contact"
+            android:icon="@drawable/smic10">
+        </item>
+        <item android:title="Feedback"
+            android:id="@+id/id_feed"
+            android:icon="@drawable/smic11">
+        </item>
+        <item android:title="Rate App"
+            android:id="@+id/id_rate"
+            android:icon="@drawable/smic12">
+        </item>
+
+    </group>
+</menu>

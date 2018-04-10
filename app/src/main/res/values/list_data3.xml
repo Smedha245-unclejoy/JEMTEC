@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cut_off_list">
+        <item> For B.Tech</item>
+        <item>For BA/BBA LLB</item>
+        <item>For BCA</item>
+        <item>For B.Ed</item>
+    </string-array>
+</resources>

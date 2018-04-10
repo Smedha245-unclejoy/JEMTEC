@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:fillViewport="false"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/title_cafe"
+            android:background="#121e9d"
+            android:text="Cafeteria"
+            android:textColor="#ffffff"
+            android:textSize="20dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/image_cafe1"
+            android:src="@drawable/cafete1"
+            android:padding="45dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/webview1"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/menu"
+            android:id="@+id/image_cafe2"
+            android:focusableInTouchMode="true"
+            android:focusable="true" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="shiv.com.jemtec.frontpage">
+    <item android:id="@+id/inf"
+        android:title="Info"
+        android:icon="@drawable/info"
+        app:showAsAction="always"
+        android:onClick="Developer"
+        />
+</menu>

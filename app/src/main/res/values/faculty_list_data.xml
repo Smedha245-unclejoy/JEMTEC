@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="faculty_list">
+        <item>B.Tech(CSE)</item>
+        <item>B.Tech(ECE)</item>
+        <item>B.Tech(EE)</item>
+        <item>B.Tech(Civil)</item>
+        <item>B.Tech(Mechanical)</item>
+        <item>Science and Humanities</item>
+        <item>BA.LLB</item>
+        <item>BBA.LLB</item>
+        <item>BCA</item>
+        <item>B.Ed</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="adm_list2">
+        <item>CET for B.Tech</item>
+        <item>CET for BA/BBA LLB</item>
+        <item>CET for BCA</item>
+        <item>CET for B.Ed</item>
+    </string-array>
+</resources>

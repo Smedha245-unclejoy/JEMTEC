@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="shiv.com.jemtec.frontpage"
+    tools:showIn="@layout/activity_frontpage"
+    android:id="@+id/drawer_layout"
+    >
+    <LinearLayout
+        android:background="#000080"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:weightSum="1.0"
+        >
+    <LinearLayout
+        android:layout_weight="0.21"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        >
+</LinearLayout>
+        <LinearLayout
+            android:layout_weight="0.2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="0.9"
+            >
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="0.3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:weightSum="1" >
+                <ImageButton
+                    android:id="@+id/ib1"
+                    android:background="#000080"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.3"
+                    android:src="@drawable/ic1"
+                    />
+                <TextView
+                    android:text="About Us"
+                    android:textColor="#FAFAFA"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.7"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="0.3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:weightSum="1" >
+                <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.3"
+                    android:background="#000080"
+                    android:src="@drawable/ic2"
+                    android:id="@+id/ib2" />
+                <TextView
+                    android:text="Courses"
+                    android:textColor="#FAFAFA"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.7"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="0.3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:weightSum="1" >
+                <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.3"
+                    android:src="@drawable/ic3"
+                    android:background="#000080"
+                    android:id="@+id/ib3" />
+                <TextView
+                    android:text="Admissions"
+                    android:textColor="#FAFAFA"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.7"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="0.2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="0.9"
+            >
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="0.3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:weightSum="1" >
+                <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.3"
+                    android:background="#000080"
+                    android:src="@drawable/ic4"
+                    android:id="@+id/ib4" />
+                <TextView
+                    android:text="Student"
+                    android:textColor="#FAFAFA"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.7"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="0.3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:weightSum="1" >
+                <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.3"
+                    android:background="#000080"
+                    android:src="@drawable/ic5"
+                    android:id="@+id/ib5" />
+                <TextView
+                    android:text="Faculty"
+                    android:textColor="#FAFAFA"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.7"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="0.3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:weightSum="1" >
+                <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.3"
+                    android:background="#000080"
+                    android:src="@drawable/ic6"
+                    android:id="@+id/ib6" />
+                <TextView
+                    android:text="Notices"
+                    android:textColor="#FAFAFA"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.7"/>
+
+            </LinearLayout>
+
+        </LinearLayout><LinearLayout
+        android:layout_weight="0.2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="0.9"
+        >
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_weight="0.3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1" >
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.3"
+                android:background="#000080"
+                android:src="@drawable/ic7"
+                android:id="@+id/ib7" />
+            <TextView
+                android:text="Gallery"
+                android:textColor="#FAFAFA"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.7"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_weight="0.3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1" >
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.3"
+                android:background="#000080"
+                android:src="@drawable/ic8"
+                android:id="@+id/ib8" />
+            <TextView
+                android:text="Campus"
+                android:textColor="#FAFAFA"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.7"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_weight="0.3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1" >
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.3"
+                android:background="#000080"
+                android:src="@drawable/ic9"
+                android:id="@+id/ib9" />
+            <TextView
+                android:text="Map"
+                android:textColor="#FAFAFA"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.7"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_weight="0.2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="0.9"
+            >
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="0.3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:weightSum="1" >
+                <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.3"
+                    android:background="#000080"
+                    android:src="@drawable/ic10"
+                    android:id="@+id/ib10" />
+                <TextView
+                    android:text="Contact Us"
+                    android:textColor="#FAFAFA"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.7"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="0.3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:weightSum="1" >
+                <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.3"
+                    android:background="#000080"
+                    android:src="@drawable/ic11"
+                    android:id="@+id/ib11" />
+                <TextView
+                    android:text="Feedback"
+                    android:textColor="#FAFAFA"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.7"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_weight="0.3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:weightSum="1" >
+                <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.3"
+                    android:background="#000080"
+                    android:src="@drawable/ic12"
+                    android:id="@+id/ib12" />
+                <TextView
+                    android:text="Rate App"
+                    android:textColor="#FAFAFA"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.7"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/toolbar_layout">
+    </include>
+
+</LinearLayout>
+<android.support.design.widget.NavigationView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/navigation_view"
+    android:layout_gravity="start"
+    app:menu="@menu/drawer_menu"
+    >
+
+</android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

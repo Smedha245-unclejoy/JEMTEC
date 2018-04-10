@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CET for B.A./B.B.A LLB"
+        android:drawableLeft="@drawable/llb3"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal"
+        android:background="#f3102767"
+        android:padding="20dp"
+        android:textAlignment="center" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:padding="30dp"
+        android:id="@+id/webview6"
+        android:layout_height="match_parent"
+        android:textStyle="bold|normal"
+        android:textColor="#020202"
+        android:background="#00fdfdfc"
+        android:textAlignment="gravity" />
+
+</LinearLayout>
